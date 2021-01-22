@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">RoomDatabase</string>
+
+    <!--  Main Activity  -->
+    <string name="hint_subscriber_name">Enter Subscriber Name</string>
+    <string name="hint_subscriber_email">Enter Subscriber Email</string>
+    <string name="button_save">Save</string>
+    <string name="button_clear_all">Clear All</string>
+    <string name="subscriber_inserted">Subscriber inserted successfully</string>
+    <string name="subscriber_inserted_error">Error occurred while saving record</string>
+    <string name="subscriber_updated">Subscriber updated successfully</string>
+    <string name="subscriber_updated_error">Error occurred while updating record</string>
+    <string name="subscriber_deleted">Subscriber deleted successfully</string>
+    <string name="subscriber_deleted_error">Error occurred while deleting record</string>
+    <string name="subscriber_all_deleted">All Subscribers deleted successfully</string>
+    <string name="subscriber_all_deleted_error">Error occurred while deleting all records</string>
+    <string name="enter_email">Enter email address</string>
+    <string name="enter_correct_email">Enter correct email address</string>
+    <string name="enter_name">Enter name</string>
+    <string name="fill_all_fields">Please fill all the fields</string>
+
+
+    <string name="text_save">Save</string>
+    <string name="text_clear_all">Clear All</string>
+    <string name="text_delete">Delete</string>
+    <string name="text_update">Update</string>
+
+    <!--  Subscriber Item   -->
+    <string name="text_name">Name : T.M. Rithwanul Islam</string>
+    <string name="text_email">Email : rithwanul@gmail.com</string>
+</resources>
