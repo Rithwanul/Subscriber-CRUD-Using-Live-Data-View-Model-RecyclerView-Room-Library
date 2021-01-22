@@ -7,7 +7,8 @@ import com.example.roomdatabase.repository.SubscriberRepository
 import com.example.roomdatabase.viewmodel.SubscriberViewModel
 import java.lang.IllegalArgumentException
 
-class SubscriberViewModelFactory(private val repository: SubscriberRepository, private val context: Context) : ViewModelProvider.Factory {
+class SubscriberViewModelFactory(private val repository: SubscriberRepository, private val context: Context) :
+        ViewModelProvider.Factory {
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(SubscriberViewModel::class.java)){
             return SubscriberViewModel(repository, context) as T
